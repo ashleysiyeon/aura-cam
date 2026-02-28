@@ -8,9 +8,9 @@ Built for a project exploring **the self through code**: the piece responds to w
 
 ## How it works
 
-1. **Camera opens automatically** — point it at yourself, standing ~2-3ft back
+1. **Allow Web Cam Access** — point it at yourself, standing ~2-3ft back
 2. **Person detection** — skin-tone pixels in the face zone confirm someone is present
-3. **Clothing color extraction** — the torso region (below face, above knees) is sampled in HSV color space, filtered to remove skin/background/gray, and the dominant hue is extracted
+3. **Clothing color extraction** — the torso region is sampled in HSV color space, filtered to remove skin/background/gray, and the dominant hue is extracted
 4. **Aura rendering** — 4 concentric glow rings are painted with offset harmonious hues, creating a dramatic rainbow-edge effect
 5. **Doodle** — a randomized hand-drawn figure appears in the outfit's color whenever a new person steps in
 6. **Empty frame** — aura disappears completely when no one is detected
