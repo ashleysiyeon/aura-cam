@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+  <div class="layout">
+    <!-- Oval camera frame + aura glow rings -->
+    <div class="oval-wrap">
+      <div class="glow g1" id="g1"></div>
+      <div class="glow g2" id="g2"></div>
+      <div class="glow g3" id="g3"></div>
+      <div class="glow g4" id="g4"></div>
+      <div class="oval">
+        <video id="video" autoplay playsinline muted></video>
+        <div class="inner-shine" id="shine"></div>
+        <div class="cam-placeholder" id="ph">opening camera…</div>
+      </div>
+    </div>
+
+    <!-- Outfit doodle panel -->
+    <div class="doodle-panel" id="doodlePanel">
+      <canvas id="doodleCanvas" width="85" height="130"></canvas>
+    </div>
+  </div>
+
+  <!-- Debug overlay (remove in production) -->
+  <div id="dbg">starting…</div>
+
+  <!-- Hidden analysis canvas -->
+  <canvas id="canvas"></canvas>
+
+  <script src="src/color.js"></script>
+  <script src="src/doodle.js"></script>
+  <script src="src/aura.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
