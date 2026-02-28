@@ -1,4 +1,4 @@
-# ✨ Aura Camera
+# 🎨 Aura Camera
 
 An interactive art installation that reads your outfit's color and generates a personalized aura glow around you — plus a hand-drawn doodle of your silhouette.
 
